@@ -25,5 +25,10 @@ Po poprawnym procesie instalacji Windows Serwer, powinien automatycznie zaczyta�
 
 <img width="1020" height="769" alt="image" src="https://github.com/user-attachments/assets/7409f155-1998-452e-8e56-c2d3e69f9b39" />
 
+Również obraz poprawnie zainstalowanego ISO Windowsa:
+
+<img width="1021" height="763" alt="image" src="https://github.com/user-attachments/assets/c492f293-7382-4f49-a41a-ff216c399eec" />
+
+
 
 ## Parametry fizyczne maszyn przed instalacją i po instalacji (dodać wartości)
