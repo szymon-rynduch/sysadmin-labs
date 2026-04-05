@@ -12,8 +12,10 @@ Kolejnym krokiem było zainstalowanie VirtualBox oraz stworzenie dwóch maszyn w
 **Tutaj zostawiam link do filmu jak stworzyć taką maszynę wirtualną:**
 https://www.youtube.com/watch?v=nvdnQX9UkMY&t=256s&pp=ygUraG93IHRvIG1ha2UgYSB2aXJ0dWFsIG1hY2hpbmUgaW4gdmlydHVhbGJveA%3D%3D
 
-**Link do pobrania i zainstalowania ISO systemów operacyjnych**
+**Link do pobrania i zainstalowania ISO systemów operacyjnych**:
+
 Windows: https://www.youtube.com/watch?v=Z4D6Uo4MtYQ&pp=ygUjZG93bmxvYWQgYW5kIGluc3RhbGwgd2luZG93cyAxMSBpc28%3D
+
 Linux: https://www.youtube.com/watch?v=YjG1yG2l9v0&pp=ygUqZG93bmxvYWQgYW5kIGluc3RhbGwgbGludXggaXNvIHZpcnR1YWwgYm94
 
 Maszyny na początku zalecam uruchamiać osobno, ponieważ obie wykorzystują dużo zasobów pamięci. Natomiast po zainstalowaniu i odpowiedniej konfiguracji można te wartości zmniejszyć, aby obie działały równocześnie.
