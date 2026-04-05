@@ -1,6 +1,6 @@
-## ****Instalowanie Active Directory w Microsoft Server***
+## ****Instalowanie Active Directory w Windows Server***
 
--> Na początku wchodzimy w DASHBOARD w Microsoft Server
+-> Na początku wchodzimy w DASHBOARD w Windows Server
 
 <img width="730" height="352" alt="image" src="https://github.com/user-attachments/assets/a23e3e54-0fcd-4a8b-99d4-cdf95553cc30" />
 
