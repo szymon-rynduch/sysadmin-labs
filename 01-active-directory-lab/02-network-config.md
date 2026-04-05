@@ -37,3 +37,33 @@ Wchodzimy w naszą maszynę wirtualną na której zainstalowaliśmy Windows Serw
 
 <img width="369" height="57" alt="image" src="https://github.com/user-attachments/assets/08e910f8-9a73-4ff3-8676-14837e59c6b7" />
 
+**⚠️ WAŻNA UWAGA — ROUTER DOMOWY Z DHCP**
+Pracuję z routerem domowym, gdzie adresy IP przydzielane są automatycznie przez serwer DHCP. 
+Aby wyznaczyć bezpieczny statyczny IP dla serwera należy:
+
+1. Sprawdzić zakres sieci wpisując `ipconfig` w CMD na swoim PC
+2. Zapamiętać: adres IP, maskę podsieci oraz bramę domyślną
+3. Wybrać adres IP poza zakresem DHCP routera (zazwyczaj niskie numery np. `192.168.1.10`)
+4. Zweryfikować czy adres jest wolny: `ping 192.168.1.10` — brak odpowiedzi = adres wolny.CLS
+
+<img width="891" height="427" alt="image" src="https://github.com/user-attachments/assets/378544cd-65b9-4f2d-8179-420e715bf612" />
+
+Osobiście wziąłem liczbę wysoką np.200 aby uniknąć zbędnych probelmów z konfiguracją.
+Następnie zapisałem sobie wyżej wymienione rzeczy czyli: adres IP, maskę podsieci oraz bramę domyślną
+
+Zweryfikowany został adres IP poleceniem PING ping 192.168.x.x
+
+Nastepnie przechodzimy do panelu sterowania na naszej maszynie z Windows Server:
+-> Network and Internet
+-> Network and Sharing Center
+-> Klikamy w niebieski link z nazwą naszej sieci
+-> Klikamy właściwości
+-> Następnie kilkamy na Internet Protocol Version 4 (TCP/IP) -> Właściwości 
+-> Klikamy Use the Following IP Address (Czyli w tym momencie przypisujemy naszemu serwerowi statyczny IP address)
+-> Klikamy na pole Use the following DNS Serwer address
+
+Po poprawnym skonfigurowaniu właściwości (zdjęcie poniżej)
+
+<img width="758" height="573" alt="image" src="https://github.com/user-attachments/assets/7b02edc1-ddad-4dec-a838-81634a706554" />
+
+-> Klikamy okay i w tym momencie mamy przydzielony statyczny adres IP do naszego serwera AD
