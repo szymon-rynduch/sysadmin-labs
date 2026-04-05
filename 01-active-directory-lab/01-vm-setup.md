@@ -24,9 +24,10 @@ Maszyny na początku zalecam uruchamiać osobno, ponieważ obie wykorzystują du
 Po poprawnym procesie instalacji Windows Serwer, powinien automatycznie zaczytać Server Menager i obraz powinien wyglądać jak na zdjęciu poniżej:
 
 <img width="1020" height="769" alt="image" src="https://github.com/user-attachments/assets/7409f155-1998-452e-8e56-c2d3e69f9b39" />
+</br>
 
 Również obraz poprawnie zainstalowanego ISO Windowsa:
-
+</br>
 <img width="1021" height="763" alt="image" src="https://github.com/user-attachments/assets/c492f293-7382-4f49-a41a-ff216c399eec" />
 
 
